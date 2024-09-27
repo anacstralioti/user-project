@@ -7,7 +7,7 @@
 <ul>
     <li><strong>Cadastro de Usuário:</strong> Permite que novos usuários se cadastrem fornecendo login (e-mail), senha e nome;</li>
     <li><strong>Login de Usuário:</strong> Permite que usuários existentes façam login;</li>
-    <li><strong>Alteração de Usuário:</strong> Permite que usuários atualizem suas informações (sendo "puxados" a partir do ID) e sejam bloqueados (status alterado para inativo).</li>
+    <li><strong>Alteração de Usuário:</strong> Permite que os usuários sejam atualizados (sendo "puxados" a partir do ID) e sejam bloqueados (status alterado para inativo).</li>
 </ul>
 
 <h2>Como executar o projeto?</h2>
