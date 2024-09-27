@@ -9,22 +9,17 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
     <li>Importe o projeto para o Pycharm</li>
     <li>Certifique-se que o Python esteja na versão 3.12.</li>
     <li>No terminal execute os seguintes comandos (na ordem em que aparecen):</li>
-    <ul>
+    <ol>
         <li>pip install flask</li>
         <li>pip install bcrypt</li>
         <li>python main.py</li>
-    </ul>
+    </ol>
 </ul>
 
 <h2>Como usar a aplicação?</h2>
 
-<ol>
-    <li><strong>Após executar a inicialização do servidor Flask com: </strong>
-        <ul>
-            <li>python main.py</li>
-        </ul>
-        <p>O servidor será iniciado em <code>http://127.0.0.1:5000</code>.</p>
-    </li>
+<ul>
+    <li><strong>Após executar a inicialização do servidor Flask com o comando <strong>python main.py</strong>, o servidor será iniciado em <code>http://127.0.0.1:5000</code>.</li>
     <li><strong>A partir daí, é possível acessar as rotas</strong>
         <ul>
             <li>Página inicial: <code>http://127.0.0.1:5000/</code></li>
@@ -33,7 +28,7 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
             <li>Alteração de usuário: <code>http://127.0.0.1:5000/alteracao</code></li>
         </ul>
     </li>
-</ol>
+</ul>
 
 <h2>Funcionalidades</h2>
 <ul>
