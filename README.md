@@ -1,8 +1,14 @@
 <h1>Sistema em Python com Flask e SQLite</h1>
 
 <h2>Descrição</h2>
-<p>Este projeto é um sistema de autenticação de usuários desenvolvido em Python com Flask, utilizando banco de dados SQLite para armazenar informações de usuários. 
-Entre suas funcionalidades estão cadastro, login e atualização de usuários.</p>
+<p>Este projeto é um sistema de autenticação de usuários desenvolvido em Python com Flask, utilizando banco de dados SQLite para armazenar informações de usuários. Entre suas funcionalidades estão cadastro, login e atualização de usuários. As senhas são armazenadas de forma segura utilizando hashing com bcrypt e o sistema assume que o login (e-mail) fornecido no cadastro é único.</p>
+
+<h2>Funcionalidades</h2>
+<ul>
+    <li><strong>Cadastro de Usuário:</strong> Permite que novos usuários se cadastrem fornecendo login (e-mail), senha e nome;</li>
+    <li><strong>Login de Usuário:</strong> Permite que usuários existentes façam login;</li>
+    <li><strong>Alteração de Usuário:</strong> Permite que usuários atualizem suas informações (sendo "puxados" a partir do ID) e sejam bloqueados (status alterado para inativo).</li>
+</ul>
 
 <h2>Como executar o projeto?</h2>
 <ul>
@@ -16,8 +22,7 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
     </ol>
 </ul>
 
-<h2>Como usar a aplicação?</h2>
-
+<h2>Como utilizar o projeto?</h2>
 <ul>
     <li><strong>Após executar a inicialização do servidor Flask com o comando <code>python main.py</code>, o servidor será iniciado em <code>http://127.0.0.1:5000</code></li>
     <li><strong>A partir daí, é possível acessar as rotas</strong>
@@ -29,13 +34,3 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
         </ul>
     </li>
 </ul>
-
-<h2>Funcionalidades</h2>
-<ul>
-    <li><strong>Cadastro de Usuário:</strong> Permite que novos usuários se cadastrem fornecendo login (e-mail), senha e nome;</li>
-    <li><strong>Login de Usuário:</strong> Permite que usuários existentes façam login;</li>
-    <li><strong>Alteração de Usuário:</strong> Permite que usuários atualizem suas informações (sendo "puxados" a partir do ID) e sejam bloqueados (status alterado para inativo).</li>
-</ul>
-
-<h2>Observações</h2>
-<p>As senhas são armazenadas de forma segura utilizando hashing com bcrypt. O sistema assume que o e-mail fornecido no cadastro é único.</p>
