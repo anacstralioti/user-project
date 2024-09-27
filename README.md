@@ -19,7 +19,7 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
 <h2>Como usar a aplicação?</h2>
 
 <ul>
-    <li><strong>Após executar a inicialização do servidor Flask com o comando <strong>python main.py</strong>, o servidor será iniciado em <code>http://127.0.0.1:5000</code>.</li>
+    <li><strong>Após executar a inicialização do servidor Flask com o comando <code>python main.py</code>, o servidor será iniciado em <code>http://127.0.0.1:5000</code>.</li>
     <li><strong>A partir daí, é possível acessar as rotas</strong>
         <ul>
             <li>Página inicial: <code>http://127.0.0.1:5000/</code></li>
