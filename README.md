@@ -10,20 +10,20 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
     <li>Certifique-se que o Python esteja na versão 3.12.</li>
     <li>No terminal execute os seguintes comandos:</li>
     <ul>
-      <li>pip install flask</li>
-      <li>pip install bcrypt</li>
-      <li>python main.py</li>
+      <li><pre>pip install flask</pre></li>
+      <li><pre>pip install bcrypt</pre></li>
+      <li><pre>python main.py</pre></li>
     </ul>
 </ul>
 
 <h2>Como usar a aplicação?</h2>
 
 <ol>
-    <li><strong>Após iniciar o servidor Flask</strong>
+    <li><strong>Após executar a inicialização do servidor Flask com: </strong>
         <pre>python main.py</pre>
         <p>O servidor será iniciado em <code>http://127.0.0.1:5000</code>.</p>
     </li>
-    <li><strong>Acesse as rotas</strong>
+    <li><strong>A partir daí, é possível acessar as rotas</strong>
         <ul>
             <li>Página inicial: <code>http://127.0.0.1:5000/</code></li>
             <li>Cadastro de usuário: <code>http://127.0.0.1:5000/cadastro</code></li>
