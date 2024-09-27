@@ -6,8 +6,8 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
 
 <h2>Como executar o projeto?</h2>
 <ul>
-    <li>Importe o projeto para o Pycharm</li>
-    <li>Certifique-se que o Python esteja na versão 3.12.</li>
+    <li>Importe o projeto para o Pycharm;</li>
+    <li>Certifique-se que o Python esteja na versão 3.12;</li>
     <li>No terminal execute os seguintes comandos (na ordem em que aparecem):</li>
     <ol>
         <li>pip install flask</li>
@@ -19,7 +19,7 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
 <h2>Como usar a aplicação?</h2>
 
 <ul>
-    <li><strong>Após executar a inicialização do servidor Flask com o comando <code>python main.py</code>, o servidor será iniciado em <code>http://127.0.0.1:5000</code>.</li>
+    <li><strong>Após executar a inicialização do servidor Flask com o comando <code>python main.py</code>, o servidor será iniciado em <code>http://127.0.0.1:5000</code></li>
     <li><strong>A partir daí, é possível acessar as rotas</strong>
         <ul>
             <li>Página inicial: <code>http://127.0.0.1:5000/</code></li>
@@ -32,8 +32,8 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
 
 <h2>Funcionalidades</h2>
 <ul>
-    <li><strong>Cadastro de Usuário:</strong> Permite que novos usuários se cadastrem fornecendo login (e-mail), senha e nome.</li>
-    <li><strong>Login de Usuário:</strong> Permite que usuários existentes façam login.</li>
+    <li><strong>Cadastro de Usuário:</strong> Permite que novos usuários se cadastrem fornecendo login (e-mail), senha e nome;</li>
+    <li><strong>Login de Usuário:</strong> Permite que usuários existentes façam login;</li>
     <li><strong>Alteração de Usuário:</strong> Permite que usuários atualizem suas informações (sendo "puxados" a partir do ID) e sejam bloqueados (status alterado para inativo).</li>
 </ul>
 
