@@ -8,11 +8,10 @@ Entre suas funcionalidades estão cadastro, login e atualização de usuários.<
 <ul>
     <li>Importe o projeto para o Pycharm</li>
     <li>Certifique-se que o Python esteja na versão 3.12.</li>
-    <li>No terminal execute os seguintes comandos:</li>
-    <ul>
-      <li><pre>pip install flask</pre></li>
-      <li><pre>pip install bcrypt</pre></li>
-      <li><pre>python main.py</pre></li>
+    <li>No terminal execute os seguintes comandos (na ordem em que aparecen):</li>
+    <pre>pip install flask</pre>
+    <pre>pip install bcrypt</pre>
+    <pre>python main.py</pre>
     </ul>
 </ul>
 
