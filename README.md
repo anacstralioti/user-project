@@ -28,6 +28,7 @@
     <li><strong>A partir daí, é possível acessar as rotas</strong>
         <ul>
             <li>Página inicial: <code>http://127.0.0.1:5000/</code></li>
+            <li>IMPORTANTE: entre na rota <code>http://127.0.0.1:5000/initdb</code> para inicializar o banco de dados</li>
             <li>Cadastro de usuário: <code>http://127.0.0.1:5000/cadastro</code></li>
             <li>Login de usuário: <code>http://127.0.0.1:5000/login</code></li>
             <li>Alteração de usuário: <code>http://127.0.0.1:5000/alteracao</code></li>
