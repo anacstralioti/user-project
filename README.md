@@ -1,4 +1,4 @@
-<h1>README para o Sistema Flask com SQLite</h1>
+<h1>Sistema em Python com Flask e SQLite</h1>
 
 <h2>Descrição</h2>
 <p>Este projeto é um sistema de autenticação de usuários desenvolvido em Python com Flask, utilizando banco de dados SQLite para armazenar informações de usuários. 
